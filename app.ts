@@ -1,23 +1,22 @@
 let numberOfLines = 1;
 
-console.log('linea #', numberOfLines);
-//TODO:
-// numberOfLines = numberOfLines + 1;
-// numberOfLines++;
-numberOfLines += 1;
+function increaseLineNumber() {
+    numberOfLines += 3;
+    // numberOfLines = numberOfLines + 3;
+}
 
 console.log('linea #', numberOfLines);
-//TODO:
-// numberOfLines = numberOfLines + 1;
 // numberOfLines++;
-numberOfLines += 1;
 
+increaseLineNumber();
 console.log('linea #', numberOfLines);
-//TODO:
-// numberOfLines = numberOfLines + 1;
 // numberOfLines++;
-numberOfLines += 1;
 
+increaseLineNumber();
+console.log('linea #', numberOfLines);
+// numberOfLines++;
+
+increaseLineNumber();
 console.log('linea #', numberOfLines);
 
 
