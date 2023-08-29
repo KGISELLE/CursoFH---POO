@@ -1,22 +1,14 @@
 let numberOfLines = 1;
 
-function increaseLineNumber() {
-    numberOfLines += 3;
-    // numberOfLines = numberOfLines + 3;
+function printLinenumber() {
+    console.log('linea #', numberOfLines);
+    numberOfLines++;
 }
 
-console.log('linea #', numberOfLines);
-// numberOfLines++;
+printLinenumber();
+printLinenumber();
+printLinenumber();
+printLinenumber();
 
-increaseLineNumber();
-console.log('linea #', numberOfLines);
-// numberOfLines++;
-
-increaseLineNumber();
-console.log('linea #', numberOfLines);
-// numberOfLines++;
-
-increaseLineNumber();
-console.log('linea #', numberOfLines);
 
 
